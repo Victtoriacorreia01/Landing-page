@@ -1,0 +1,74 @@
+.bg-gradient-animation {
+    background: linear-gradient(45deg, #0af21d, #0254c7, #6aff00);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+}
+
+
+@media (max-width: 640px) {
+    .firstdiv {
+        flex-direction: column; 
+    }
+
+    .secdiv {
+        margin-left: 0; 
+        width: 100%; 
+    }
+
+    .h1 {
+        font-size: 50px; 
+        margin-left: 38px;;
+        margin-top: 20px;
+    }
+    .p{
+        font-size: 20px;
+        margin-top: 60px;
+        margin-left: 40px;
+        color: rgb(244, 240, 232);
+    }
+
+    .b1 {
+        font-size: 25px; 
+        padding: 0.3rem 0.7rem; 
+        margin-top: 90px;
+        margin-left: 38px;
+    }
+    .b2{
+        font-size: 25px; 
+        padding: 0.3rem 0.7rem; 
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+
+    .img {
+        width: 100%; 
+        margin-left: 0; 
+    }
+}
+
+
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.image-container {
+    animation: moveUpDown 4s infinite alternate;
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}

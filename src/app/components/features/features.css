@@ -1,0 +1,38 @@
+.box{
+  border-style: solid;
+  border-color: transparent;
+  transition: border-color 0.3s; 
+  cursor: pointer;
+}
+.box:hover{
+  border-top-color: red;
+  border-right-color: purple;
+  border-bottom-color: green;
+  border-left-color: brown;
+}
+
+@media (max-width: 640px) {
+  .features{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .h1{
+    font-size: 20px;
+  }
+  .pa{
+    font-size: 15px;
+    color: black;
+    margin-left: 40px;
+  }
+}
+
+.box {
+  border-radius: 10px; 
+  transition: transform 0.3s ease; 
+}
+
+
+.box:hover {
+  transform: translateY(-2px); 
+  transition: transform 0.3s ease; 
+}
