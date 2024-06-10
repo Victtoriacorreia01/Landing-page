@@ -8,7 +8,7 @@ Este é um projeto web desenvolvido em Next.js, focado em fornecer uma infraestr
 
 ## Demonstração
 
-Você pode acessar a demonstração do projeto [aqui](https://portvic.vercel.app/).
+Você pode acessar a demonstração do projeto [aqui](https://landing-page-dusky-chi-33.vercel.app/).
 
 ## Estrutura do Projeto
 
