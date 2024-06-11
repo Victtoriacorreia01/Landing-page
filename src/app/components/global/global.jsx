@@ -13,13 +13,10 @@ const Global = () => {
                     <h1 className="h1 text-7xl font-semibold text-left mb-10 mt-8 text-white" data-aos="fade-right">
                         Uma estrutura preparada para o comércio internacional
                     </h1>
-                    <div>
+                    <div className='paragrafo'>
                     <p className="text-gray-300 leading-relaxed mb-12 text-lg sm:text-white sm:text-xl md:text-1xl">
-  Com a Milk, transferir fundos é tão fácil e programável quanto transferir dados. Nossas equipes estão presentes em escritórios ao redor do mundo e processamos anualmente centenas de bilhões de dólares para empresas de todos os portes que visam crescimento.
-</p>
-
-
-                        
+                    Com a Milk, transferir fundos é tão fácil e programável quanto transferir dados. Nossas equipes estão presentes em escritórios ao redor do mundo e processamos anualmente centenas de bilhões de dólares para empresas de todos os portes que visam crescimento.
+                    </p>
                         <div className="container mx-auto px-4 mt-16">
                             <ul className="hidden md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                                 <li className="bg-white bg-opacity-70 rounded-lg shadow-md transition-transform transform hover:scale-105 cursor-pointer">

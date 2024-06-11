@@ -3,6 +3,9 @@
     background-size: 400% 400%;
     animation: gradientAnimation 10s ease infinite;
 }
+.line{
+    display: none;
+}
 
 
 @media (max-width: 640px) {
@@ -25,24 +28,32 @@
         margin-top: 60px;
         margin-left: 40px;
         color: rgb(244, 240, 232);
+        line-height: 1.5;
     }
 
     .b1 {
-        font-size: 25px; 
+        font-size: 20px; 
         padding: 0.3rem 0.7rem; 
-        margin-top: 90px;
+        margin-top: 40px;
         margin-left: 38px;
     }
     .b2{
-        font-size: 25px; 
+        font-size: 23px; 
         padding: 0.3rem 0.7rem; 
-        margin-top: 50px;
+        margin-top: 30px;
         margin-left: 40px;
     }
 
     .img {
         width: 100%; 
         margin-left: 0; 
+    }
+    .line{
+        display: flex;
+        margin-top: 30px;
+        width: 70%;
+        margin-left: 60px;
+        
     }
 }
 

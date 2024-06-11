@@ -7,6 +7,136 @@
     }
   }
   
-  .image-move {
+  .contact-image {
     animation: moveRight 5s infinite alternate; 
+  }
+
+  .contato-container {
+    margin-left: 0.25rem;
+    margin-right: 70px;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .contato-container {
+      margin-left: 9rem;
+      grid-template-columns: 1fr 1fr;
+      gap: 2.5rem;
+    }
+  }
+  
+  .contact-header {
+    color: #16a34a;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+  .contact-title {
+    font-size: 1.875rem;
+    font-weight: 700;
+    margin-top: 0.75rem;
+  }
+  
+  .contact-description {
+    font-size: 1.125rem;
+    font-weight: 300;
+    margin-top: 1rem;
+    max-width: 80%;
+  }
+  
+  .contact-image {
+    margin-top: 2.5rem;
+  }
+  
+  .form-container {
+    margin-top: 0.25rem;
+    margin-bottom: 3.5rem;
+    padding: 1.5rem;
+    padding-top: 1.75rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.75rem;
+  }
+  
+  @media (max-width: 668px) {
+    .contact-header {
+      color: #16a34a;
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-left: 20px;
+    }
+    
+    .contact-title {
+      font-size: 1.875rem;
+      font-weight: 700;
+      margin-top: 0.75rem;
+      margin-left: 20px;
+    }
+    
+    .contact-description {
+      font-size: 1.125rem;
+      font-weight: 300;
+      margin-top: 1rem;
+      margin-left: 20px;
+    }
+    .form-container {
+      padding: 2.0rem;
+      margin-left: 40px;
+    }
+    .contato-container {
+      margin-left: 0.25rem;
+      margin-right: 20px;
+      margin-bottom: 4rem;
+      margin-top: 4rem;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+  }
+  
+  .form-title {
+    color: #1d4ed8;
+    font-weight: 700;
+    font-size: 1.875rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-icon {
+    margin-right: 0.75rem;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .input-field {
+    border: 1px solid #e5e7eb;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.75rem;
+    outline: none;
+    width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    .input-field {
+      padding: 0.75rem 1rem;
+    }
+  }
+  
+  .error-message {
+    color: #ef4444;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+  }
+  
+  .privacy-policy {
+    text-align: center;
+    margin-top: 2.5rem;
   }

@@ -1,0 +1,9 @@
+
+
+@media (max-width: 668px) {
+    .paragrafo p{
+        font-size: 20px;
+        max-width: 70%;
+        margin-left: 50px ;
+    }
+}

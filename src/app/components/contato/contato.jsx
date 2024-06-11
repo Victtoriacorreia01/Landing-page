@@ -119,23 +119,23 @@ const Contato = () => {
       {modalSuccess && <ModalSuccess closeModal={closeModal} />}
       {modalFail && <ModalFail closeModal={closeModal} />}
       {isLoading && <Loading />}
-      <div className="ml-1 md:ml-36 mb-16 mt-16 container grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10">
+      <div className="contato-container">
         <div className="text">
-          <span className="text-green-600 text-xl font-semibold">Entre em contato conosco</span>
-          <h1 className="text-3xl font-bold mt-3" data-aos="fade-up">
+          <span className="contact-header">Entre em contato conosco</span>
+          <h1 className="contact-title" data-aos="fade-up">
             Aumente suas vendas e resultados
           </h1>
-          <p className="text-lg font-light mt-4" data-aos="fade-up">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit illum minus reiciendis aperiam unde commodi expedita provident atque non, amet architecto quae culpa eum! Dignissimos aperiam atque ad inventore sapiente.
+          <p className="contact-description" data-aos="fade-up">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit illum minus reiciendis aperiam unde  expedita provident atque non, amet architecto quae culpa eum! Dignissimos aperiam atque ad inventore sapiente.
           </p>
-          <img src="/images/cell.jpg" alt="" width={380} className="mt-10 image-move" />
+          <img src="/images/cell.jpg" alt="" width={380} className="contact-image" />
         </div>
-        <div className="form mt-1 mb-14 p-6 md:p-14 border pt-7 border-gray-200 rounded-lg">
+        <div className="form-container">
           <img src={icone} alt="" data-aos="fade-up" />
-          <h1 className="text-blue-700 font-bold text-3xl flex items-center mb-6">
-            <span className="mr-3" data-aos="fade-up">➜</span>Fale com um especialista
+          <h1 className="form-title">
+            <span className="form-icon" data-aos="fade-up">➜</span>Fale com um especialista
           </h1>
-          <form className="flex flex-col gap-4" data-aos="fade-down">
+          <form className="form" data-aos="fade-down">
             <div>
               <input
                 type="text"
@@ -144,9 +144,9 @@ const Contato = () => {
                 onChange={(e) => setNome(e.target.value)}
                 onBlur={(e) => handleBlur(e.target.value, setNome, setNomeError, "Nome completo")}
                 required
-                className="input-field border border-gray-200 py-2 md:py-3 px-3 md:px-4 rounded-lg focus:outline-none w-full"
+                className="input-field"
               />
-              {nomeError && <p className="text-red-500 text-sm mt-1">{nomeError}</p>}
+              {nomeError && <p className="error-message">{nomeError}</p>}
             </div>
             <div>
               <input
@@ -156,9 +156,9 @@ const Contato = () => {
                 onChange={(e) => setEmail(e.target.value)}
                 onBlur={(e) => handleBlur(e.target.value, setEmail, setEmailError, "Email")}
                 required
-                className="input-field border border-gray-200 py-2 md:py-3 px-3 md:px-4 rounded-lg focus:outline-none w-full"
+                className="input-field"
               />
-              {emailError && <p className="text-red-500 text-sm mt-1">{emailError}</p>}
+              {emailError && <p className="error-message">{emailError}</p>}
             </div>
             <div>
               <input
@@ -169,9 +169,9 @@ const Contato = () => {
                 onChange={(e) => setTelefone(e.target.value)}
                 onBlur={(e) => handleBlur(e.target.value, setTelefone, setTelefoneError, "Whatsapp")}
                 required
-                className="input-field border border-gray-200 py-2 md:py-3 px-3 md:px-4 rounded-lg focus:outline-none w-full"
+                className="input-field"
               />
-              {telefoneError && <p className="text-red-500 text-sm mt-1">{telefoneError}</p>}
+              {telefoneError && <p className="error-message">{telefoneError}</p>}
             </div>
             <div>
               <input
@@ -181,9 +181,9 @@ const Contato = () => {
                 onChange={(e) => setSite(e.target.value)}
                 onBlur={(e) => handleBlur(e.target.value, setSite, setSiteError, "Site")}
                 required
-                className="input-field border border-gray-200 py-2 md:py-3 px-3 md:px-4 rounded-lg focus:outline-none w-full"
+                className="input-field"
               />
-              {siteError && <p className="text-red-500 text-sm mt-1">{siteError}</p>}
+              {siteError && <p className="error-message">{siteError}</p>}
             </div>
             <div>
               <input
@@ -193,14 +193,14 @@ const Contato = () => {
                 onChange={(e) => setOrcamento(e.target.value)}
                 onBlur={(e) => handleBlur(e.target.value, setOrcamento, setOrcamentoError, "Orçamento")}
                 required
-                className="input-field border border-gray-200 py-2 md:py-3 px-3 md:px-4 rounded-lg focus:outline-none w-full"
+                className="input-field"
               />
-              {orcamentoError && <p className="text-red-500 text-sm mt-1">{orcamentoError}</p>}
+              {orcamentoError && <p className="error-message">{orcamentoError}</p>}
             </div>
             <Button title="Enviar" kind="full" onClick={SendEmail} />
           </form>
           <div>
-            <h1 className="text-center mt-10">
+            <h1 className="privacy-policy">
               Enviando esse formulário você reconhece que leu sobre a nossa <br /> 
               <strong>Política de Privacidade</strong>
             </h1>
