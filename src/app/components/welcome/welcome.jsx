@@ -6,7 +6,7 @@ const Welcome = () => {
     return (
         <div className="firstdiv bg-gradient-animation w-screen h-screen flex items-center">
             <div className="secdiv lg:ml-20 ">
-            <h1 className="h1 lg:mt-8 lg:ml-16 lg:text-7xl font-bold sm:text-5xl sm:ml-4 sm:mt-0 text-black tracking-normal sm:tracking-wide" data-aos="fade-left">
+            <h1 className="titulo lg:mt-8 lg:ml-16 lg:text-7xl font-bold sm:text-5xl sm:ml-4 sm:mt-0 text-black tracking-normal sm:tracking-wide" data-aos="fade-left">
             Infraestrutura de pagamentos <br /> para a internet
             </h1>
             <hr className='line'/>

@@ -1,9 +1,17 @@
 
 
 @media (max-width: 668px) {
+    .relative {
+        height: 110vh;
+    }
+
     .paragrafo p{
         font-size: 20px;
-        max-width: 70%;
-        margin-left: 50px ;
+        max-width: 90%;
+        margin-left: 10px ;
+    }
+    .tituloglobal{
+        font-size: 3.5rem;
+        max-width: 80%;
     }
 }

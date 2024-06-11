@@ -10,7 +10,7 @@ const Global = () => {
             <div className="relative z-10 features container mx-auto px-6 py-12 flex justify-between">
                 <div className="w-full sm:w-2/3 mb-8 sm:mb-0">
                     <h1 className="text-1xl font-bold text-green-400 cursor-pointer hover:text-green-200">Escala global</h1>
-                    <h1 className="h1 text-7xl font-semibold text-left mb-10 mt-8 text-white" data-aos="fade-right">
+                    <h1 className="tituloglobal text-7xl font-semibold text-left mb-10 mt-8 text-white" data-aos="fade-right">
                         Uma estrutura preparada para o comércio internacional
                     </h1>
                     <div className='paragrafo'>

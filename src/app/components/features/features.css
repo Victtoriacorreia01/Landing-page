@@ -16,13 +16,18 @@
     display: flex;
     flex-wrap: wrap;
   }
-  .h1{
-    font-size: 20px;
+
+  .h{
+    font-size: 3rem;
+    margin-right: 10px;
+    margin-left: 10px;
+    line-height: 1.0;
+   
   }
   .pa{
     font-size: 15px;
-    color: black;
-    margin-left: 40px;
+    color: rgb(41, 41, 41);
+    margin-left: 20px;
   }
 }
 

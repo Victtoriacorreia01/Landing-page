@@ -11,6 +11,7 @@
 @media (max-width: 640px) {
     .firstdiv {
         flex-direction: column; 
+        height: 100vh;
     }
 
     .secdiv {
@@ -18,15 +19,17 @@
         width: 100%; 
     }
 
-    .h1 {
-        font-size: 50px; 
-        margin-left: 38px;;
-        margin-top: 20px;
+    .titulo {
+        font-size: 48px; 
+        margin-left: 30px;;
+        margin-top: 50px;
+        line-height: 1.0;
+        max-width: 100%;
     }
     .p{
         font-size: 20px;
         margin-top: 60px;
-        margin-left: 40px;
+        margin-left: 34px;
         color: rgb(244, 240, 232);
         line-height: 1.5;
     }

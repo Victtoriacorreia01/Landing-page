@@ -13,11 +13,11 @@ const Features = () => {
     <div className="features container mx-auto px-6 py-12 flex justify-between">
       <div className="w-full sm:w-2/3 mb-8 sm:mb-0">
         <h1 className="text-1xl font-bold text-red-600 cursor-pointer hover:text-green-400">Soluções modulares</h1>
-        <h1 className="h1 text-7xl font-semibold text-left mb-10 mt-8"  data-aos="fade-left">
+        <h1 className="h text-7xl font-semibold text-left mb-10 mt-8"  data-aos="fade-left">
           Um pacote totalmente integrado de produtos para gestão financeira <br /> e pagamentos
         </h1>
         <div className=''>
-          <p className="pa text-1xl text-gray-700 leading-relaxed mb-12" data-aos="zoom-left">
+          <p className="pa text-1xl text-gray-700 leading-relaxed mb-12" data-aos="fade-left">
             Reduza custos, aumente a receita e administre sua empresa <br /> com mais eficiência em uma plataforma totalmente integrada. <br /> 
             Use a Milk para gerenciar todas as suas necessidades de <br /> pagamento e operações de receita e ainda lançar ou criar <br />
             novos modelos de negócios.
